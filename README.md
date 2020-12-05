@@ -36,6 +36,10 @@ Reference: https://trac.ffmpeg.org/wiki/Encode/H.264#:~:text=preset%20and%20tune
 ...
 ```
 
-## Thank To
+### Notes
+- The API receives binary file video and three preset parameters
+- Multiple requests do not pauses one another
+
+## Thanks To
 - https://pypi.org/project/ffmpeg-python/
 - https://trac.ffmpeg.org/wiki/Encode/H.264
