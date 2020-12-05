@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "901199b1d4fd38135ecee5886e765139060adeeddab86149c1213f0ef88b530a"
+            "sha256": "54fa9dfe18881d1dbd4e09e613545fb940057538cca4dfe79f84904ad68f17b7"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -31,6 +31,13 @@
             ],
             "index": "pypi",
             "version": "==3.1.4"
+        },
+        "djangorestframework": {
+            "hashes": [
+                "sha256:0209bafcb7b5010fdfec784034f059d512256424de2a0f084cb82b096d6dd6a7"
+            ],
+            "index": "pypi",
+            "version": "==3.12.2"
         },
         "ffmpeg-python": {
             "hashes": [

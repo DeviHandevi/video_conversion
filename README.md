@@ -1,6 +1,7 @@
 # Install Django App
 Run `pipenv shell`
 Install Django `pipenv install django`
+Install Django REST Framework `pipenv install djangorestframework`
 Start Django Project `django-admin startproject video_converter`
 Change directory `cd video_converter`
 Apply the migrations for project app(s) `python manage.py migrate`

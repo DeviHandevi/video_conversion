@@ -34,7 +34,7 @@ try:
   converted_video_binary, _ = (
     ffmpeg
     .input(input_filepath)
-    .output('pipe:', format='matroska')
+    .output('pipe:', format='h264')
     .run(capture_stdout=True)
   )
   print(converted_video_binary)
