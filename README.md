@@ -35,6 +35,7 @@ Reference: https://trac.ffmpeg.org/wiki/Encode/H.264#:~:text=preset%20and%20tune
 Eߣ�B��B��B�B�B��matroskaB��B��S�g�������M�t���E��M��S��I�fS���M��S��T�kS���M��S��T�gS��B�bI�f���Mٰ�*ױ�B@M��Lavf58.64.100WA�Lavf58.64.100s��/�d��@O�ށ)^$V�T�kPV���߾@��ׁsň*"�+�Ia���"���und��V_MPEG4/ISO/AVC��#ツ
 ...
 ```
+The binary result can be saved into a video file.
 
 ### Notes
 - The API receives binary file video and three preset parameters
