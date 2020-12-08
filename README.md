@@ -3,6 +3,9 @@
 - Python 3.8
 - Django
 - Django REST Framework
+- Download [FFmpeg](https://ffmpeg.org/download.html)
+- Put the ffmpeg bin folder to your environment variable path
+- FFmpeg for Python `pip install ffmpeg-python`
 
 ## How to Run
 ``` bash
