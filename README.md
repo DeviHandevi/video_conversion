@@ -49,7 +49,7 @@ It will produce binary string that can be saved to a video file.
     python manage.py runserver
     ```
 - Import Postman Collection `./test/input/Video Converter.postman_collection.json`
-- Input parameters to Body:
+- Input parameters to Body as form-data:
   - `file`: choose file from `./test/input/input1.mp4`
   - `format`: matroska
   - `preset`: veryslow
