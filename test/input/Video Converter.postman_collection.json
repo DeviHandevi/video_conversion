@@ -1,0 +1,58 @@
+{
+	"info": {
+		"_postman_id": "40d56686-e2d7-4ac1-a100-be7cc3fc9c31",
+		"name": "Video Converter",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Case 1: http://127.0.0.1:8000/video_converter_app/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/D:/Downloads/input.mp4"
+						},
+						{
+							"key": "format",
+							"value": "matroska",
+							"type": "text"
+						},
+						{
+							"key": "preset",
+							"value": "veryslow",
+							"type": "text"
+						},
+						{
+							"key": "crf",
+							"value": "30",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/video_converter_app/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"video_converter_app",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
